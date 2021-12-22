@@ -1,13 +1,20 @@
-/*!************************************************************************************************************!*\
-  !*** css ../node_modules/css-loader/dist/cjs.js!../node_modules/less-loader/dist/cjs.js!./styles/app.less ***!
-  \************************************************************************************************************/
+@font-face {
+  font-family: 'Quicksand';
+  src: url("assets/fonts/Quicksand-Bold.ttf");
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+
 body {
   margin: 0 auto;
   padding: 0;
   max-width: 1280px;
 }
+
 header {
-  background-image: url(f74e379ffef3e23f05e0.png);
+  background-image: url('assets/img/bg.png');
   background-repeat: no-repeat;
   color: #ffffff;
   display: flex;
