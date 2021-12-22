@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>12 макет</title>
+    <style>
+        @font-face {
+            font-family: 'Quicksand';
+            src: url("assets/fonts/Quicksand-Bold.ttf");
+        }
+
+        body {
+            font-family: 'Quicksand', sans-serif;
+        }
+    </style>
+<script defer="defer" src="main.js"></script><link href="main.css" rel="stylesheet"></head>
+<body>
+<header style="background-image: url('assets/img/bg.png');">
+    <div class="header__top">
+        <div class="logo">
+            <img src="assets/img/logo.png" width="53" height="40">
+        </div>
+        <div class="navbar">
+            <a href="#">Home</a>
+            <a href="#">Products</a>
+            <a href="#"><img src="assets/img/cart.png"></a>
+        </div>
+    </div>
+    <div class="header__mid">
+        <h1>Our clothing, your comfort</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+            magna aliqua.</p>
+    </div>
+    <div class="header__bot">
+        <img src="assets/img/fa-chevron-down.png">
+    </div>
+</header>
+<section class="catalog">
+    <div class="menu">
+        <div class="inputs">
+            <div><input type="checkbox" id="men" checked="checked"><label for="men">Men</label></div>
+            <div><input type="checkbox" id="women" checked="checked"><label for="women">Women</label></div>
+            <div><input type="checkbox" id="children"><label for="children">Children</label></div>
+        </div>
+        <input type="button" onclick="return false;" value="See all products">
+    </div>
+    <main>
+        <div class="hero">
+            <div class="hero__title">
+                <span>MEN</span>
+                <hr>
+            </div>
+            <div class="slider right">
+                <div class="arrows">
+                    <span>1/5</span>
+                    <a href="#"><img src="assets/img/fa-chevron-left.png" width="11" height="12"></a>
+                    <a href="#"><img src="assets/img/fa-chevron-right.png" width="11" height="12"></a>
+                </div>
+            </div>
+            <div class="items">
+                <div class="item active">
+                    <div class="item__variants">
+                        <div class="item__size">
+                            <span>size</span>
+                            <img src="assets/img/fa-angle-down.png">
+                        </div>
+                        <div class="item__color">
+                            <div class="color__blue"></div>
+                            <div class="color__yellow"></div>
+                            <div class="color__gray"></div>
+                        </div>
+                    </div>
+                    <div class="item__img">
+                        <img src="assets/img/t-shirt.png">
+                    </div>
+                    <div class="item__info">
+                        <span class="item__name">T-shirt</span>
+                        <span class="item__price">5,00€</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item__variants">
+                        <div class="item__size">
+                            <span>size</span>
+                            <img src="assets/img/fa-angle-down.png">
+                        </div>
+                        <div class="item__color">
+                        </div>
+                    </div>
+                    <div class="item__img">
+                        <img src="assets/img/pants.png">
+                    </div>
+                    <div class="item__info">
+                        <span class="item__name">Pants forclaz</span>
+                        <span class="item__price">30,00€</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item__variants">
+                        <div class="item__size">
+                            <span>10 litri</span>
+                        </div>
+                        <div class="item__color">
+                        </div>
+                    </div>
+                    <div class="item__img">
+                        <img src="assets/img/backpack.png">
+                    </div>
+                    <div class="item__info">
+                        <span class="item__name">Backpack</span>
+                        <span class="item__price">60,00€</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero">
+            <div class="hero__title">
+                <hr>
+                <span>WOMEN</span>
+            </div>
+            <div class="slider left">
+                <div class="arrows">
+                    <span>1/5</span>
+                    <a href="#"><img src="assets/img/fa-chevron-left.png" width="11" height="12"></a>
+                    <a href="#"><img src="assets/img/fa-chevron-right.png" width="11" height="12"></a>
+                </div>
+            </div>
+            <div class="items">
+                <div class="item">
+                    <div class="item__variants">
+                        <div class="item__size">
+                            <span>size</span>
+                            <img src="assets/img/fa-angle-down.png">
+                        </div>
+                        <div class="item__color">
+                        </div>
+                    </div>
+                    <div class="item__img">
+                        <img src="assets/img/giacket.png">
+                    </div>
+                    <div class="item__info">
+                        <span class="item__name">Giacket</span>
+                        <span class="item__price">60,00€</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item__variants">
+                        <div class="item__size">
+                            <span>size</span>
+                            <img src="assets/img/fa-angle-down.png">
+                        </div>
+                        <div class="item__color">
+                        </div>
+                    </div>
+                    <div class="item__img">
+                        <img src="assets/img/shoes.png">
+                    </div>
+                    <div class="item__info">
+                        <span class="item__name">Trekking shoes</span>
+                        <span class="item__price">80,00€</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item__variants">
+                        <div class="item__size">
+                            <span>size</span>
+                            <img src="assets/img/fa-angle-down.png">
+                        </div>
+                        <div class="item__color">
+                            <div class="color__pink"></div>
+                        </div>
+                    </div>
+                    <div class="item__img">
+                        <img src="assets/img/t-shirt-2.png">
+                    </div>
+                    <div class="item__info">
+                        <span class="item__name">T-shirt</span>
+                        <span class="item__price">20,00€</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</section>
+<section class="about">
+    <div>
+        <span>About as</span>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+        <p>tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</p>
+        <p>veniam, quis nostrud</p>
+        <p>exercitation</p>
+    </div>
+</section>
+<footer>
+    <div class="footer__top">
+        <img src="assets/img/fa-twitter.png">
+        <span>“ E-commerce psd theme available ”</span>
+    </div>
+    <div class="footer__bot">
+        <div class="trekking">
+            <span>Trekking</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+            <p>eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut</p>
+            <p>enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
+            <p>nisi ut aliquip
+                ex ea commodo consequat.</p>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="#">Credits </a></li>
+                <li><a href="#">Privacy </a></li>
+                <li><a href="#">About </a></li>
+                <li><a href="#">Contact </a></li>
+            </ul>
+            <p>Design by gianluca cosetta</p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
